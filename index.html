@@ -13,6 +13,7 @@
 
     <link rel="shortcut icon" type="image/png" href="./favicon-32x32.png">
     <style>
+        /* some reveal overrides ... need to put them into base repo */
         img {
             display: block;
             width: 100%;
@@ -30,15 +31,7 @@
             font-size: 1rem;
         }
     </style>
-    <style>
-        #img-part {
-            background-image: url("images/vi-mental-model_no-legend.png");
-            background-position-x: -157px;
-            background-position-y: -35px;
-            height: 310px;
-            width: 480px;
-        }
-    </style>
+
 
 </head>
 
@@ -47,139 +40,52 @@
     <div class="reveal">
         <div class="slides">
 
-            <section class="bg-lightblue-50 pad-x l" data-background-image="/images/baby-can-u-hack.jpg"
-                data-background-position="bottom left" data-background-size="35%">
+            <section class="bg-lightblue-50 pad-x l"
+                data-background-image="/images/baby-can-u-hack.jpg"
+                data-background-position="bottom left"
+                data-background-size="35%">
+
                 <hgroup class="">
-                    <h1>Fun with the Shell</h1>
-                    <p>How to switch directories and more ...</p>
+                    <h1>OWASP Top 10</h1>
+                    <p>things you want to avoid ...</p>
                 </hgroup>
+
             </section>
 
-            <section> <!-- Session 0 / Intro -->
-                <section id="vorstellungsrunde" data-markdown="session-00/vorstellungsrunde.md">
-                </section>
-                <section id="onboarding" data-markdown="session-00/onboarding.md"></section>
-                <section id="first-login" data-markdown="session-00/first-login.md"></section>
-                <section id="first-steps" data-markdown="session-00/first-steps.md"></section>
-            </section> <!-- End of Session 0 / Intro -->
+            <section id="intro" data-markdown="slides-md/intro.md"></section>
 
-            <section> <!-- Session 1 -->
-
-                <section data-background-image="images/clouds-are-linux-servers.jpg" data-background-size="70%">
-                    <h4 class="lightblue ta-right mrg-top-xl mrg-right-xl">...Linux hält die Welt<br />am Laufen</h4>
-                </section>
-
-                <section data-background-image="images/unix-bearded-guy.jpg" data-background-position="bottom right"
-                    data-background-size="48%">
-                    <hgroup>
-                        <h2>Session 1</h2>
-                        <p>Geschichte, Einstieg, Prozesse und Bewegen im Dateibaum</p>
-                    </hgroup>
-                </section>
-
-                <section id="history-of-linux" data-markdown="session-01/history-of-linux.md"></section>
-                <section id="processes" data-markdown="session-01/processes.md"></section>
-                <section id="showing-processes" data-markdown="session-01/showing-processes.md"></section>
-                <section id="process_commands" data-markdown="session-01/process_commands.md"></section>
-                <section id="end_processes" data-markdown="session-01/end_processes.md"></section>
-                <section id="interjection_run_a_command" data-markdown="session-01/interjection_run_a_command.md">
-                </section>
-                <section id="pfade_so_viele_pfade" data-markdown="session-01/pfade_so_viele_pfade.md"></section>
-                <section id="exercises-process" data-markdown="session-01/exercises-process.md"></section>
-                <section id="bewegen_im_verzeichnisbaum" data-markdown="session-01/bewegen_im_verzeichnisbaum.md">
-                </section>
-                <section id="exercises-file-movement" data-markdown="session-01/exercises-file-movement.md"></section>
-
-            </section> <!-- End of Session 1 -->
-
-            <section><!-- Session 2 -->
-
-                <section data-background-image="images/rtfm-joda-meme.jpg" data-background-position="bottom right"
-                    data-background-size="38%">
-                    <hgroup>
-                        <h2>Session 2</h2>
-                        <p>Bedienungsanleitung, Aliasse, Umgebung, Anmeldung, Kommandozeile, Dateisystem,
-                            Mehrbenutzersystem, Skripte</p>
-                    </hgroup>
-                </section>
-
-                <section id="manpages" data-markdown="session-02/manpages.md"></section>
-                <section id="aliases" data-markdown="session-02/aliases.md"></section>
-                <section id="environment" data-markdown="session-02/environment.md"></section>
-                <section id="login" data-markdown="session-02/login.md"></section>
-                <section id="cmdline-title" data-background-image="images/expansions.jpg"
-                    data-background-position="2% 97%" data-background-size="38%">
-
-                    <h2>CMD-Line Expansion</h2>
-
-                </section>
-                <section id="cmdline" data-markdown="session-02/cmdline.md"></section>
-                <section id="execution" data-markdown="session-02/execution.md"></section>
-                <section id="multiuser-title" data-background-image="images/sudo-iamroot.jpg"
-                    data-background-position="2% 97%" data-background-size="38%">
-
-                    <h2>Mehrere User</h2>
-
-                </section>
-                <section id="multiuser" data-markdown="session-02/multiuser.md"></section>
-
-                <section id="E0_man" data-markdown="session-02/E0_man.md"></section>
-                <section id="E1_aliases" data-markdown="session-02/E1_aliases.md"></section>
-                <section id="E2_environment" data-markdown="session-02/E2_environment.md"></section>
-
-            </section> <!--End of Session 2 -->
-
-            <section><!-- Session 3 -->
-
-                <section data-background-image="images/whats-in-the-file-meme.jpg" data-background-size="37%"
-                    data-background-position="98% 98%">
-                    <hgroup>
-                        <h3 class="red">Session 3</h3>
-                        <p>Mal schauen was drin ist!</p>
-                    </hgroup>
-                </section>
-
-                <section id="filesystem-rights" data-markdown="session-03/filesystem-rights.md"></section>
-
-                <section id="logfiles" data-markdown="session-03/logfiles.md"></section>
-                <section id="more-or-less" data-background-image="images/more-less-meme.jpg" data-background-size="20%"
-                    data-background-position="90% 10%" data-markdown="session-03/more-or-less.md"></section>
-                <!--
-                <section id="tail" data-background-image="images/dog-head-tail.jpg" data-background-size="20%"
-                    data-background-position="90% 10%" data-markdown="session-03/tail.md"></section>
-                <section id="vi-intro" data-markdown="session-03/vi-intro.md"></section>
-                <section id="vi-modes" data-markdown="session-03/vi-modes.md"></section>
-                <section id="vi-examples" data-markdown="session-03/vi-examples.md"></section>
-                -->
-            </section> <!--End of Session 3 -->
-
-            <section><!-- Session 4 -->
+            <section> <!-- Part 0 -->
                 <section>
-                    <hgroup>
-                        <h3 class="red">Session 4</h3>
-                        <p>Der ganze Rest!</p>
-                    </hgroup>
+                    <h2>Part 0 title</h2>
                 </section>
-<!--
-                <section data-markdown="session-04/ssh-tricks.md"></section>
+                <section data-markdown="slides-md/part0.md">part 0</section>
+                <section>part 0.1</section>
+            </section> <!-- End of Part 0 -->
 
-                <section data-markdown="session-04/filesystem.md"></section>
+            <section> <!-- Part 1 -->
+                <section> part 1 </section>
+                <section> part 1.1 </section>
+            </section> <!-- End of Part 1 -->
 
-                <section id="regex-intro" data-markdown="session-04/regex-intro.md"></section>
-                <section id="regex-chars" data-markdown="session-04/regex-chars.md"></section>
-                <section id="regex-quantifiers" data-markdown="session-04/regex-quantifiers.md"></section>
-                <section id="regex-anchors" data-markdown="session-04/regex-anchors.md"></section>
-                <section id="regex-captgroups" data-markdown="session-04/regex-captgroups.md"></section>
-                <section id="regex-exercises" data-markdown="session-04/regex-exercises.md"></section>
--->
-            </section><!-- End of Session 4-->
+            <section><!-- Part 2 -->
+                <section> part 2 </section>
+                <section> part 2.1 </section>
+            </section> <!--End of Part 2 -->
+
+            <section><!-- Part 3 -->
+                <section> part 3 </section>
+                <section> part 3.1 </section>
+            </section> <!--End of Part 3 -->
+
+            <section><!-- Part 4 -->
+                <section> part 4 </section>
+                <section> part 4.1 </section>
+            </section><!-- End of Part 4-->
 
             <section> <!-- Backup -->
                 <section>
                     <h2>Backup</h2>
                 </section>
-
-                <section id="regex-comparison" data-markdown="session-backup/regex-comparison.md"></section>
             </section><!-- End of Backup -->
 
         </div>

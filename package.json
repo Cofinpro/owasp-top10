@@ -4,7 +4,7 @@
   "description": "a presentation about linux / unix focussing on the terminal and the shell for internal use at cofinpro ag",
   "main": "index.html",
   "scripts": {
-    "start": "live-server --port=8088 --open=./index.html",
+    "start": "live-server --port=9099 --open=./index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
