@@ -1,4 +1,4 @@
-# Presentation in Cofinpro Style in Reveal.js
+# OWASP Top10 Präsentation / Cofinpro
 
 ## Starting the Presentation locally
 
