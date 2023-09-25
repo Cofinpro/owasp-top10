@@ -16,6 +16,10 @@ then open in chrome-based(!!) browsers (some css shenanigans are not yet support
 
 - [the presentation in the index.html](http://localhost:9099/)
 
+## RevealJS Documentation
+
+see at [revealjs.com](https://revealjs.com/)
+
 ## cofinpro stuff
 
 after starting the local server, you can watch
