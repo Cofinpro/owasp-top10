@@ -31,6 +31,19 @@
             font-size: 1rem;
         }
     </style>
+    <style>
+        .version-label {
+            position: absolute;
+            top: -3rem;
+            right: -4rem;
+            transform: rotate(-28deg);
+            background: rgb(170 170 170 / 0.3);
+            padding: 4px 8px;
+            border-radius: 16%;
+            border: 1px solid rgb(204 0 0);
+            text-transform: none;
+        }
+    </style>
 
 
 </head>
@@ -40,16 +53,13 @@
     <div class="reveal">
         <div class="slides">
 
-            <section class="bg-lightblue-50 pad-x l"
-                data-background-image="/images/baby-can-u-hack.jpg"
-                data-background-position="bottom left"
-                data-background-size="35%">
-
-                <hgroup class="">
-                    <h1>OWASP Top 10</h1>
-                    <p>things you want to avoid ...</p>
+            <section data-background-image="./images/everything-is-broken.jpg">
+                <hgroup class="bg-lightblue pad-md">
+                    <h1 class="brown" style="position:relative; width: fit-content; margin-inline: auto;">OWASP Top 10
+                        <p class="yellow version-label">v2021</p>
+                    </h1>
+                    <p class="brown" >everything <strong>is</strong> broken ... <span class="fragment red">on the internetz</span></p>
                 </hgroup>
-
             </section>
 
             <section id="intro" data-markdown="slides-md/intro.md"></section>
