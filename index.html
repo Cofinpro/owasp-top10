@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>OWASP Top10 (v2021) - reveal.js</title>
+    <title>Fun with the SHELL - reveal.js</title>
     <link rel="stylesheet" href="./css/reveal.css">
 
     <!-- cofinpro styling -->
@@ -31,19 +31,6 @@
             font-size: 1rem;
         }
     </style>
-    <style>
-        .version-label {
-            position: absolute;
-            top: -3rem;
-            right: -4rem;
-            transform: rotate(-28deg);
-            background: rgb(170 170 170 / 0.3);
-            padding: 4px 8px;
-            border-radius: 16%;
-            border: 1px solid rgb(204 0 0);
-            text-transform: none;
-        }
-    </style>
 
 
 </head>
@@ -53,44 +40,126 @@
     <div class="reveal">
         <div class="slides">
 
-            <section data-background-image="./images/everything-is-broken.jpg">
-                <hgroup class="bg-lightblue pad-md">
-                    <h1 class="brown" style="position:relative; width: fit-content; margin-inline: auto;">OWASP Top 10
-                        <p class="yellow version-label">v2021</p>
-                    </h1>
-                    <p class="brown" >everything <strong>is</strong> broken ... <span class="fragment red">on the internetz</span></p>
+            <section class="bg-lightblue-50 pad-x l"
+                data-background-image="/images/baby-can-u-hack.jpg"
+                data-background-position="bottom left"
+                data-background-size="35%">
+
+                <hgroup class="">
+                    <h1>OWASP Top 10</h1>
+                    <p>things you want to avoid ...</p>
                 </hgroup>
+
             </section>
 
             <section id="intro" data-markdown="slides-md/intro.md"></section>
 
             <section> <!-- Part 0 -->
                 <section>
-                    <h2>Part 0 title</h2>
+                    <h2>Allgemeine Einleitung</h2>
                 </section>
-                <section data-markdown="slides-md/part0.md">part 0</section>
-                <section>part 0.1</section>
+                <section data-markdown="slides-md/erwartungshaltung.md" id="erwartungshaltung">Erwartungshaltung</section>
+                <section data-markdown="slides-md/schwachstellen.md">Was sind Schwachstellen?</section>
+                <section data-markdown="slides-md/warum-top-ten.md">Warum macht man eine Top Ten von so was?</section>
+                <section>
+                    <h2>Was sind unsere Lernziele?</h2>
+                </section>
+                <section data-markdown="slides-md/wer-ist-owasp.md">Wer oder was ist OWASP?</section>
+                <section data-markdown="slides-md/begriffe-und-akronyme.md">Begriffe und Akronyme</section>
+                <section data-markdown="slides-md/zehn-kategorien.md">Die zehn Kategorien</section>
+                <section>
+                    <h2>Ablauf</h2>
+                </section>
+                <section data-markdown="slides-md/allgemeines.md">Allgemeines</section>
+                <section data-markdown="slides-md/owasp-top-ten-theorie.md">
+                	Je eine OWASP Top Ten Kategorie (Theorie)
+                </section>
+                <section data-markdown="slides-md/owasp-top-ten-praxis.md">Je ein Beispiel (Praxis)</section>
             </section> <!-- End of Part 0 -->
 
             <section> <!-- Part 1 -->
-                <section> part 1 </section>
-                <section> part 1.1 </section>
+                <section>
+                    <h2>A01:2021 – Broken Access Control</h2>
+                </section>
+                <section data-markdown="slides-md/broken-access-control-theorie.md">
+                	Broken Access Control - Theorie
+                </section>
+                <section data-markdown="slides-md/broken-access-control-praxis">
+                	Broken Access Control - Praxis
+                </section>
             </section> <!-- End of Part 1 -->
 
             <section><!-- Part 2 -->
+                <section>
+                    <h2>A02:2021 – Cryptographic Failures</h2>
+                </section>
                 <section> part 2 </section>
                 <section> part 2.1 </section>
             </section> <!--End of Part 2 -->
 
             <section><!-- Part 3 -->
+                <section>
+                    <h2>A03:2021 – Injection</h2>
+                </section>
                 <section> part 3 </section>
                 <section> part 3.1 </section>
             </section> <!--End of Part 3 -->
 
             <section><!-- Part 4 -->
+                <section>
+                    <h2>A04:2021 – Insecure Design</h2>
+                </section>
                 <section> part 4 </section>
                 <section> part 4.1 </section>
             </section><!-- End of Part 4-->
+
+            <section><!-- Part 5 -->
+                <section>
+                    <h2>A05:2021 – Security Misconfiguration</h2>
+                </section>
+                <section> part 5 </section>
+                <section> part 5.1 </section>
+            </section><!-- End of Part 5-->
+
+            <section><!-- Part 6 -->
+                <section>
+                    <h2>A06:2021 – Vulnerable and Outdated Components</h2>
+                </section>
+                <section> part 6 </section>
+                <section> part 6.1 </section>
+            </section><!-- End of Part 6-->
+
+            <section><!-- Part 7 -->
+                <section>
+                    <h2>A07:2021 – Identification and Authentication Failures</h2>
+                </section>
+                <section> part 7 </section>
+                <section> part 7.1 </section>
+            </section><!-- End of Part 7-->
+
+            <section><!-- Part 8 -->
+                <section>
+                    <h2>A08:2021 – Software and Data Integrity Failures</h2>
+                </section>
+                <section> part 8 </section>
+                <section> part 8.1 </section>
+            </section><!-- End of Part 8-->
+
+            <section><!-- Part 9 -->
+                <section>
+                    <h2>A09:2021 – Security Logging and Monitoring Failures</h2>
+                </section>
+                <section> part 9 </section>
+                <section> part 9.1 </section>
+            </section><!-- End of Part 9-->
+
+            <section><!-- Part 10 -->
+                <section>
+                    <h2>A10:2021 – Server-Side Request Forgery (SSRF)</h2>
+                </section>
+                <section> part 10 </section>
+                <section> part 10.1 </section>
+            </section><!-- End of Part 10-->
 
             <section> <!-- Backup -->
                 <section>
