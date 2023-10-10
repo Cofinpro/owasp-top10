@@ -12,6 +12,19 @@ seit 2019 IT Consultant für die [Cofinpro AG](https://cofinpro.de)</p>
 </div>
 </div>
 
+
+<div class="ta-left flex-row" style="align-items: center; justify-content:center;">
+<img src="images/udo.png" style="width: 90px;">
+<div>
+
+<p>Udo Güngerich<br/>
+seit 20+ Jahren ...<br/>
+seit ???? IT Consultant für die [Cofinpro AG](https://cofinpro.de)</p>
+<p class="fragment">seit <span class="red">immer schon</span> an IT-Security interessiert</p>
+
+</div>
+</div>
+
 notes:
 
 - das C-Wort wird von mir nicht verwendet,
