@@ -1,9 +1,9 @@
 ## Wer spricht?
 
-<div class="ta-left flex-row" style="align-items: center; justify-content:center;">
+<div class="ta-left flex-row" style="align-items: center; justify-content:space-around;">
 <img src="images/dominik.jpg" style="width: 90px;">
-<div>
 
+<div>
 <p>Dominik Schopper<br/>
 seit 20+ Jahren Software-Entwickler und Techie/Nerd/Linux-Lover ...<br/>
 seit 2019 IT Consultant für die [Cofinpro AG](https://cofinpro.de)</p>
@@ -13,10 +13,11 @@ seit 2019 IT Consultant für die [Cofinpro AG](https://cofinpro.de)</p>
 </div>
 
 
-<div class="ta-left flex-row" style="align-items: center; justify-content:center;">
-<img src="images/udo.png" style="width: 90px;">
-<div>
+<div class="ta-left flex-row" style="align-items: center; justify-content:space-around;">
 
+<img src="images/udo.jpg" style="width: 90px;">
+
+<div>
 <p>Udo Güngerich<br/>
 seit 20+ Jahren ...<br/>
 seit ???? IT Consultant für die [Cofinpro AG](https://cofinpro.de)</p>
