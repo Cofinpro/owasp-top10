@@ -1,0 +1,14 @@
+## A01:2021 – Broken Access Control
+### Beispiel für Verwundbarkeit: Direct Object References
+
+`https://superbank.de/app/user/23746/profile/23425`
+
+Die Anwendung prüft nicht, ob der Benutzer auch Besitzer des Profils "23425" ist, sondern liefert es einfach aus.
+
+### Angriffsvektor
+
+Der Angriffsvektor ist nun URL Tampering. Statt 23425 ändert der Benutzer die Profil-ID in 23426 und sieht Daten, die ihm nicht gehören.
+
+### Mitigation
+
+Die Anwendung muss bei jedem Zugriff im Code prüfen, ob eine angefragte Ressource oder Funktion auch berechtigterweise angefragt wurde, also der Benutzer zum Profil gehört. Üblicherweise wird dies über Authentifizierungstoken und Rollen implementiert.

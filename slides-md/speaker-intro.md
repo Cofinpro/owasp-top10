@@ -6,7 +6,7 @@
 <div>
 <p>Dominik Schopper<br/>
 seit 20+ Jahren Software-Entwickler und Techie/Nerd/Linux-Lover ...<br/>
-seit 2019 IT Consultant für die [Cofinpro AG](https://cofinpro.de)</p>
+seit 2019 IT Consultant für die <a href="https://cofinpro.de">Cofinpro AG</a></p>
 <p class="fragment">seit <span class="red">ewig</span> an IT-Security interessiert</p>
 
 </div>
@@ -19,8 +19,8 @@ seit 2019 IT Consultant für die [Cofinpro AG](https://cofinpro.de)</p>
 
 <div>
 <p>Udo Güngerich<br/>
-seit 20+ Jahren ...<br/>
-seit ???? IT Consultant für die [Cofinpro AG](https://cofinpro.de)</p>
+seit 15+ Jahren Software-Entwickler, anfangs auf dem CPC 464 in Locomotive BASIC<br/>
+seit 2020 IT Consultant für die <a href="https://cofinpro.de">Cofinpro AG</a></p>
 <p class="fragment">seit <span class="red">immer schon</span> an IT-Security interessiert</p>
 
 </div>

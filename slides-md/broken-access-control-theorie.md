@@ -1,12 +1,11 @@
 ## A01:2021 – Broken Access Control
-
 ### Was ist Access Control?
 
-### Typische Schwachstellen
-#### Privilege escalation
+Access Control oder Zugriffskontrolle stellt sicher, dass kein Akteur eine ihm nicht zugeschriebene Ressource oder Funktion erreichen, verändern bzw. auslösen kann.
 
-Ein Benutzer verschafft sich Berechtigungen, die seiner Definition nicht zugewiesen sind, indem er 
-* eine Rolle einnimmt, die ihm nicht gehört
-* eine Identität imitiert, die ihm nicht gehört
-* Zugriffsbeschränkungsmechanismen aushebelt
-* Authentifizierungsalgorithmen angreift
+### Typische Schwachstellen
+
+* Ressourcen sind nicht (ausreichend) gesichert (z.B. Direct Object References)
+* Authentifizierungsalgorithmen sind nicht korrekt konfiguriert
+* "Deny all" wurde nicht als Standard konfiguriert
+
